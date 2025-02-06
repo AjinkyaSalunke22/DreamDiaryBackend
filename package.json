@@ -1,0 +1,35 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This is the backend for the dream diary project",
+  "keywords": [
+    "DreamDiary",
+    "Personal",
+    "Diary"
+  ],
+  "homepage": "https://github.com/AjinkyaSalunke22/DreamDiaryBackend#readme",
+  "bugs": {
+    "url": "https://github.com/AjinkyaSalunke22/DreamDiaryBackend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AjinkyaSalunke22/DreamDiaryBackend.git"
+  },
+  "license": "ISC",
+  "author": "Ajinkya Salunke",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongodb": "^6.13.0",
+    "mongoose": "^8.10.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.7",
+    "nodemon": "^3.1.9"
+  }
+}
